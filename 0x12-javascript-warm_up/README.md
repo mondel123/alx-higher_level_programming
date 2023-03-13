@@ -1,155 +1,68 @@
-# Javascript - Warm up
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+> Introduction to JavaScript
 
-This was the first JavaScript project I completed at [ALX](https://alx_africa.com). Tasks involved
-writing various introductory-level JavaScript scripts on Node.js.
+![just-work-js](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/303/Javascript-535.png.jpeg)
+## Javascript
+JavaScript, a high level single threaded garbage collected intrepreted or just in time compliled  prototyped based multiparadigm  weakly dynamic typed programming language with a non blocking event loop, famous for building websites. It was created by Brendan Eich in 1995 in just one week to add scripting functionalities to the netscape browser.
 
-## Tests :heavy_check_mark:
+## Background context
+JavaScript is used for many things. Here, you will use JavaScript for 2 reasons:
 
-* [tests](./tests): Folder of test files. Provided by ALX.
+- Scripting (same as we did with Python)
+- Web front-end
 
-## Function Prototypes :floppy_disk:
+For the moment, and for learning all basic concepts of this language, we will do some scripting. After, we will make our AirBnB project dynamic by using Javascript and JQuery.
 
-Prototypes for functions written in this project:
+## Resources 
+1. [Writting Javascript code](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+2. [Variables](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Variables)
+3. [Datatypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+4. [Operators](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
+5. [Operator precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+6. [Controlling program flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
+7. [Functions](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+8. [Objects and arrays](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+9. [Intrinsic objects](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+10. [Module patterns](http://darrenderidder.github.io/talks/ModulePatterns/#/)
+11. [var, let, const](https://www.youtube.com/watch?v=sjyJBL5fkp8)
+12. [Javascript tutorial](https://www.youtube.com/watch?v=vZBCTc9zHtI)
+13. [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+14. [100 secods of JS](https://www.youtube.com/watch?v=DHjqpvDnNGE&t=20s)
 
-| File        | Prototype                                  |
-| ----------- | ------------------------------------------ |
-| `13-add.js` | `exports.add = (a, b)`                     |
-| `101-call_me_moby.js` | `function (x, theFunction)`      |
-| `102-add_me_maybe.js` | `function (number, theFunction)` |
+## Learning objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) the following  __Without the help of Google__
 
-## Tasks :page_with_curl:
+### General
+* [X] Why JavaScript programming is amazing
+* [X] How to run a JavaScript script
+* [X] How to create variables and constants
+* [X] What are differences between ```var```, ```const``` and ```let```
+* [X] What are all the data types available in JavaScript
+* [X] How to use the ```if```, ```if ... else``` statements
+* [X] How to use comments
+* [X] How to affect values to variables
+* [X] How to use while and ```for``` loops
+* [X] How to use ```break``` and ```continue``` statements
+* [X] What is a function and how do you use functions
+* [X] What does a function that does not use any ```return``` statement return
+* [X] Scope of variables
+* [X] What are the arithmetic operators and how to use them
+* [X] How to manipulate dictionary
+* [X] How to import a file
 
-* **0. First constant, first print**
-  * [0-javascript_is_amazing.js](./0-javascript_is_amazing.js): JavaScript script
-  that creates a constant variable `myVar` with the value `'Javascript is amazing'`.
-  * Usage: `./0-javascript_is_amazing.js`
+## More info
 
-* **1. 3 languages**
-  * [1-multi_languages.js](./1-multi_languages.js): JavaScript script that prints
-  three lines.
-  * Usage: `./1-multi_languages.js`
-  * Line 1: `'C is fun'`.
-  * Line 2: `'Python is cool'`.
-  * Line 3: `'Javascript is amazing'`.
-
-* **2. Arguments**
-  * [2-arguments.js](./2-arguments.js): JavaScript script that prints a message
-  depending on the number of arguments passed.
-  * Usage: `./2-arguments.js <arg 1> <arg 2> ...`
-  * If no arguments are passed, prints `'No argument'`.
-  * If one argument is passed, prints `'Argument found'`.
-  * Otherwise, prints `'Arguments found'`.
-
-* **3. Value of my argument**
-  * [3-value_argument.js](./3-value_argument.js): JavaScript script that prints
-  the first argument passed to it.
-  * Usage: `./3-value_argument.js <arg>`
-  * If no argument is passed, prints `'No argument'`.
-
-* **4. Create a sentence**
-  * [4-concat.js](./4-concat.js): JavaScript script that prints two arguments
-  passed in the format `<arg 1> is <arg 2>`.
-  * Usage: `./4-concat.js <arg1> <arg2>`
-
-* **5. An Integer**
-  * [5-to_integer.js](./5-to_integer.js): JavaScript script that prints
-  `My number: <first argument converted in integer>` if the first pased argument
-  can be converted to an integer.
-  * Usage: `./5-to_integer.js`
-  * If the argument cannot be converted to an integer, prints `'Not a number'`.
-
-* **6. Loop to languages**
-  * [6-multi_languages_loop.js](./6-multi_languages_loop.js): JavaScript script that
-  prints three lines using an array and a loop.
-  * Usage: `./6-multi_languages_loop.js`
-  * First line: `'C is fun'`.
-  * Second line: `'Python is cool'`.
-  * Third line: `'Javascript is awesome'`.
-
-* **7. I love C**
-  * [7-multi_c.js](./7-multi_c.js): JavaScript script that prints `x` times `'C is fun'`.
-  * Usage: `./7-multi_c.js <x>`
-  * If the first argument cannot be converted to a number, prints
-  `'Missing number of occurrences'`.
-
-* **8. Square**
-  * [8-square.js](./8-square.js): JavaScript script that prints a square.
-  * Usage: `./8-square.js <size>`
-  * If the first argument cannot be converted to a number, prints `'Missing size`'.
-  * Uses the `X` character to print the square.
-
-* **9. Add**
-  * [9-add.js](./9-add.js): JavaScript script that prints the addition of two
-  numbers passed as arguments.
-  * Usage: `./9-add.js <number 1> <number 2>`
-  * Prototype: `function add(a, b)`
-
-* **10. Factorial**
-  * [10-factorial.js](./10-factorial.js): JavaScript script that computes and
-  prints a factorial.
-  * Usage: `./10-factorial.js <number to compute factorial of>`
-
-* **11. Second biggest!**
-  * [11-second_biggest.js](./11-second_biggest.js): JavaScript script that
-  locates the second largest number in the list of provided arguments.
-  * Usage: `./11-second_biggest.js <arg 1> <arg 2> ...`
-  * If no arguments are passed or the number of arguments is `1`, prints `0`.
-
-* **12. Object**
-  * [12-object.js](./12-object.js): Update of the following script that replaces
-  the value `12` with `89`.
+### Install Node 14
 ```
-#!/usr/bin/node
-const myObject = {
-  type: 'object',
-  value: 12
-};
-console.log(myObject);
-/*
-YOUR CODE HERE
-*/
-console.log(myObject);
+$ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
 ```
 
-* **13. Add file**
-  * [13-add.js](./13-add.js): JavaScript function `add` that returns the addition
-  of two numbers.
-
-* **14. Const or not const**
-  * [100-let_me_const.js](./100-let_me_const.js): JavaScript script that modifies
-  the value of `myVar` in the following file to `333`.
+### Install semi-standard
+[Documentation](https://github.com/standard/semistandard)
 ```
-#!/usr/bin/node
-myVar = 89;
-require('./100-let_me_const')
-console.log(myVar);
+$ sudo npm install semistandard --global
 ```
 
-* **15. Call me Moby**
-  * [101-call_me_moby.js](./101-call_me_moby.js): JavaScript function that executes
-  `x` times a given function.
-
-* **16. Add me maybe**
-  * [102-add_me_maybe.js](./102-add_me_maybe.js): JavaScript function that
-  increments a given number and calls a given function.
-
-* **17. Increment object**
-  * [103-object_fct.js](./103-object_fct.js): Update of the following JavaScript
-  script adding a new function `incr` that increments the number `value`.
-```
-#!/usr/bin/node
-let myObject = {
-  type: 'object',
-  value: 12
-};
-console.log(myObject);
-/*
-YOUR CODE HERE
-*/
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
-myObject.incr();
-console.log(myObject);
-```
+## Quiz Questions
+[Quizes](./quiz.md)
